@@ -681,6 +681,13 @@
             ]
           },
           {
+            "group": "Onboarding & org admin",
+            "pages": [
+              "cookbook/org-admin",
+              "cookbook/provision-users"
+            ]
+          },
+          {
             "group": "Plugins, skills & MCP",
             "pages": [
               "cookbook/launch-plugin-badge",
