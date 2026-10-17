@@ -541,7 +541,6 @@
               "enterprise/enterprise-vs-oss",
               "enterprise/architecture",
               "enterprise/sizing-guide",
-              "enterprise/quick-start",
               {
                 "group": "Custom Sandbox Images",
                 "icon": "box",
@@ -619,12 +618,16 @@
               },
               "enterprise/integrations/slack",
               "enterprise/integrations/external-llm-gateways",
+              "enterprise/integrations/azure-llm-gateway",
               "enterprise/integrations/observability-platforms"
             ]
           },
           {
             "group": "VM Install",
             "pages": [
+              "enterprise/vm-install/generic-vm",
+              "enterprise/vm-install/aws",
+              "enterprise/vm-install/google",
               "enterprise/vm-install/admin-console-configuration",
               "enterprise/vm-install/log-collection",
               "enterprise/vm-install/scaling"
@@ -640,7 +643,9 @@
               "enterprise/k8s-install/dns-and-tls",
               "enterprise/k8s-install/resource-limits",
               "enterprise/k8s-install/upgrade-guidance",
-              "enterprise/k8s-install/eks"
+              "enterprise/k8s-install/eks",
+              "enterprise/k8s-install/aks",
+              "enterprise/k8s-install/gke"
             ]
           }
         ]
@@ -799,6 +804,10 @@
     ]
   },
   "redirects": [
+    {
+      "source": "/enterprise/quick-start",
+      "destination": "/enterprise/vm-install/generic-vm"
+    },
     {
       "source": "/openhands/usage/agent-canvas/self-hosting",
       "destination": "/openhands/usage/agent-canvas/backend-setup/vm"
