@@ -214,6 +214,9 @@
           {
             "group": "Release Notes",
             "pages": [
+              "openhands/usage/agent-canvas/release-notes/v1.31.0",
+              "openhands/usage/agent-canvas/release-notes/v1.30.0",
+              "openhands/usage/agent-canvas/release-notes/v1.29.0",
               "openhands/usage/agent-canvas/release-notes/v1.28.0",
               "openhands/usage/agent-canvas/release-notes/v1.27.0",
               "openhands/usage/agent-canvas/release-notes/v1.26.0",
@@ -451,7 +454,14 @@
             "group": "Feature Guides",
             "pages": [
               "enterprise/conversations-and-sandboxes",
-              "enterprise/automations",
+              {
+                "group": "Automations",
+                "icon": "bolt",
+                "root": "enterprise/automations",
+                "pages": [
+                  "enterprise/automations/github-events"
+                ]
+              },
               "enterprise/skills-and-plugins",
               "enterprise/plugin-marketplace",
               "enterprise/analytics",
@@ -590,6 +600,7 @@
           {
             "group": "Secrets & authentication",
             "pages": [
+              "cookbook/aws-secrets-sync",
               "cookbook/gpg-commit-signing",
               "cookbook/per-conversation-secrets",
               "cookbook/service-account-github-pat"
