@@ -227,6 +227,8 @@
             "group": "Release Notes",
             "icon": "rocket",
             "pages": [
+              "openhands/usage/agent-canvas/release-notes/v1.41.0",
+              "openhands/usage/agent-canvas/release-notes/v1.40.0",
               "openhands/usage/agent-canvas/release-notes/v1.39.0",
               "openhands/usage/agent-canvas/release-notes/v1.38.0",
               "openhands/usage/agent-canvas/release-notes/v1.37.0",
@@ -517,6 +519,7 @@
           {
             "group": "Configuration",
             "pages": [
+              "enterprise/environment-variables",
               {
                 "group": "Authentication (SSO)",
                 "icon": "shield-check",
